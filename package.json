@@ -1,5 +1,5 @@
 {
-  "homepage": "https://taoka8810.github.io/diagnosis",
+  "homepage":"http://taoka8810.github.io/diagnosis",
   "name": "diagnosis",
   "version": "0.1.0",
   "private": true,
@@ -16,7 +16,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "deploy": "yarn build && gh-pages -d build",
+    "deploy": "npm run build && gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
